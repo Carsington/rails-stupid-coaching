@@ -1,0 +1,36 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$gray: #F4F4F4;
+$nice-blue: #337AB7;
+
+body {
+  background: $gray; // Using this variable
+}
+
+p {
+  font-size: 20px;
+}
+
+form {
+  #button {
+    height: 50px;
+    width: 75px;
+    border-radius: 4px;
+    background-color: $nice-blue;
+    color: white;
+    font-weight: bold;
+    &:hover {
+      background-color: white;
+      color: $nice-blue;
+      transition-duration: 0.25s;
+    }
+  }
+  #text-field {
+  height: 50px;
+  width: 300px;
+  border-radius: 4px;
+  }
+}
+
